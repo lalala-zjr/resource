@@ -6,67 +6,67 @@ import java.sql.Time;
 
 @Repository
 public class User {
-    private String user_name;
-    private String user_password;
-    private String user_phone;
-    private Time user_math;
-    private Time user_english;
-    private Time user_policy;
-    private Time user_course;
+    private String userName;
+    private String userPassword;
+    private String userPhone;
+    private Time userMath;
+    private Time userEnglish;
+    private Time userPolicy;
+    private Time userCourse;
 
-    public Time getUser_english(){
-        return user_english;
+    public String getUserName() {
+        return userName;
     }
 
-    public Time getUser_policy(){
-        return user_policy;
+    public String getUserPassword() {
+        return userPassword;
     }
 
-    public Time getUser_course() {
-        return user_course;
+    public String getUserPhone() {
+        return userPhone;
     }
 
-    public String getUser_phone() {
-        return user_phone;
+    public Time getUserCourse() {
+        return userCourse;
     }
 
-    public String getUser_name() {
-        return user_name;
+    public Time getUserEnglish() {
+        return userEnglish;
     }
 
-    public String getUser_password() {
-        return user_password;
+    public Time getUserMath() {
+        return userMath;
     }
 
-    public Time getUser_math() {
-        return user_math;
+    public Time getUserPolicy() {
+        return userPolicy;
     }
 
-    public void setUser_course(Time user_course) {
-        this.user_course = user_course;
+    public void setUserCourse(Time userCourse) {
+        this.userCourse = userCourse;
     }
 
-    public void setUser_english(Time user_english) {
-        this.user_english = user_english;
+    public void setUserEnglish(Time userEnglish) {
+        this.userEnglish = userEnglish;
     }
 
-    public void setUser_math(Time user_math) {
-        this.user_math = user_math;
+    public void setUserMath(Time userMath) {
+        this.userMath = userMath;
     }
 
-    public void setUser_name(String user_name) {
-        this.user_name = user_name;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
-    public void setUser_password(String user_password) {
-        this.user_password = user_password;
+    public void setUserPassword(String userPassword) {
+        this.userPassword = userPassword;
     }
 
-    public void setUser_phone(String user_phone) {
-        this.user_phone = user_phone;
+    public void setUserPhone(String userPhone) {
+        this.userPhone = userPhone;
     }
 
-    public void setUser_policy(Time user_policy) {
-        this.user_policy = user_policy;
+    public void setUserPolicy(Time userPolicy) {
+        this.userPolicy = userPolicy;
     }
 }

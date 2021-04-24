@@ -6,67 +6,58 @@ import java.sql.Time;
 
 @Repository
 public class Course {
-    private int course_id;
-    private String course_name;
-    private String course_type;
-    private Time course_time;
-    private int course_see;
-    private int course_good;
-    private int course_review;
+    private int courseId;
+    private String courseName;
+    private String courseType;
+    private int courseSee;
+    private int courseGood;
+    private int courseReview;
 
-    public int getCourse_id(){
-        return course_id;
+    public int getCourseGood() {
+        return courseGood;
     }
 
-    public int getCourse_good() {
-        return course_good;
+    public int getCourseId() {
+        return courseId;
     }
 
-    public int getCourse_review() {
-        return course_review;
+    public int getCourseReview() {
+        return courseReview;
     }
 
-    public int getCourse_see() {
-        return course_see;
+    public int getCourseSee() {
+        return courseSee;
     }
 
-    public String getCourse_name() {
-        return course_name;
+    public String getCourseName() {
+        return courseName;
     }
 
-    public String getCourse_type() {
-        return course_type;
+    public String getCourseType() {
+        return courseType;
     }
 
-    public Time getCourse_time() {
-        return course_time;
+    public void setCourseGood(int courseGood) {
+        this.courseGood = courseGood;
     }
 
-    public void setCourse_good(int course_good) {
-        this.course_good = course_good;
+    public void setCourseId(int courseId) {
+        this.courseId = courseId;
     }
 
-    public void setCourse_id(int course_id) {
-        this.course_id = course_id;
+    public void setCourseName(String courseName) {
+        this.courseName = courseName;
     }
 
-    public void setCourse_name(String course_name) {
-        this.course_name = course_name;
+    public void setCourseReview(int courseReview) {
+        this.courseReview = courseReview;
     }
 
-    public void setCourse_review(int course_review) {
-        this.course_review = course_review;
+    public void setCourseSee(int courseSee) {
+        this.courseSee = courseSee;
     }
 
-    public void setCourse_see(int course_see) {
-        this.course_see = course_see;
-    }
-
-    public void setCourse_time(Time course_time) {
-        this.course_time = course_time;
-    }
-
-    public void setCourse_type(String course_type) {
-        this.course_type = course_type;
+    public void setCourseType(String courseType) {
+        this.courseType = courseType;
     }
 }
